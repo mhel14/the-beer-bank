@@ -1,2 +1,2 @@
 # the-beer-bank
-This is the beer bank
+The beer bank challenge code.

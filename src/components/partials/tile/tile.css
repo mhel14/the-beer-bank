@@ -1,0 +1,50 @@
+.tile {
+  background: #fff;
+  /* padding: 24px 0; */
+  border-radius: 5px;
+  transition: all ease-in-out .3s;
+  position: relative;
+}
+
+.tile:hover {
+  box-shadow: 0px 0px 30px 2px #c7c4c4;
+  transform: scale(1.03);
+}
+
+.tile-content {
+  max-width: 70%;
+  margin: auto;
+  padding: 24px 0;
+  cursor: pointer;
+}
+
+.tile img {
+  height: 125px;
+}
+
+.tile .title {
+  color: #f79400;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.tile .tagline {
+  color: #a0abb5;
+  margin: 4px 0;
+}
+
+.tile button {
+  background: none;
+  outline: none;
+  border: 0;
+  position: absolute;
+  right: 12px;
+  top: 16px;
+  transition: ease all .2s;
+  cursor: pointer;
+}
+
+.favorite button.material-icons {
+  color: #f79400;
+}
