@@ -1,2 +1,2 @@
 # Beer bank
-Thechnology stack used: React, Axios and Firebase
+Thechnology stack used: React and Axios 
